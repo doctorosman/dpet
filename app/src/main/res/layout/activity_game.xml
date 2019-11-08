@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".gameActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:padding="10sp">
+
+
+        <ImageView
+            android:id="@+id/can"
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/can" />
+
+        <TextView
+            android:id="@+id/canT"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="@string/can"
+            android:textColor="@android:color/black"
+            android:textSize="26sp" />
+
+        <ImageView
+            android:id="@+id/guc"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/guc" />
+
+        <TextView
+            android:id="@+id/gucT"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="@string/guc"
+            android:textColor="@android:color/black"
+            android:textSize="26sp" />
+
+        <ImageView
+            android:id="@+id/para"
+            android:layout_width="60dp"
+            android:layout_height="55dp"
+            app:srcCompat="@drawable/para" />
+
+        <TextView
+            android:id="@+id/paraT"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="@string/para"
+            android:textColor="@android:color/black"
+            android:textSize="26sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/pet"
+            android:layout_width="250sp"
+            android:layout_height="250sp"
+            android:padding="30sp"
+            app:srcCompat="@drawable/petnormal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/zzz"
+                android:layout_width="96dp"
+                android:layout_height="87dp"
+                android:visibility="gone"
+                app:srcCompat="@drawable/zzz" />
+
+            <Button
+                android:id="@+id/kaka"
+                style="?attr/borderlessButtonStyle"
+                android:layout_width="78dp"
+                android:layout_height="83dp"
+                android:background="@drawable/kaka"
+                android:visibility="gone" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/mesaj"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:gravity="center"
+        android:padding="10sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/savas"
+            style="?attr/borderlessButtonStyle"
+            android:layout_width="75sp"
+            android:layout_height="75sp"
+            android:background="@drawable/savas" />
+
+        <Button
+            android:id="@+id/yemek"
+            style="?attr/borderlessButtonStyle"
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:background="@drawable/yemek" />
+
+        <Button
+            android:id="@+id/uyu"
+            style="?attr/borderlessButtonStyle"
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:background="@drawable/uyku" />
+
+        <Button
+            android:id="@+id/spor"
+            style="?attr/borderlessButtonStyle"
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:background="@drawable/spor" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/home"
+        style="?attr/borderlessButtonStyle"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:background="@drawable/home" />
+
+</LinearLayout>
